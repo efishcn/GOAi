@@ -2,8 +2,9 @@
 chcp 65001
 TITLE 运行GOAi服务
 
-SET JAR_PATH="%cd%\application\web.jar"
+SET JAR_PATH="D:\git\GOAi\strategy\application\web.jar"
 SET GOAI_PORT=7758
+ECHO %JAR_PATH%
 
 SET LOCAL_JRE="%cd%\libs\jre1.8.0_171\bin\java"
 
